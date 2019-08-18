@@ -1,0 +1,16 @@
+{
+  "short_name": "My Portfolio",
+  "name": "My Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "gouthamvangala",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "rgb(242, 227, 198)",
+  "background_image": "linear-gradient(to left bottom, rgb(242, 227, 198) 0%, rgb(167, 161, 165) 100%)"
+}
