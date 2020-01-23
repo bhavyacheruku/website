@@ -4,10 +4,10 @@ export default class Expertise extends Component {
   render() {
     return (
         <div>
-        <section className="colorlib-expertise" data-section="expertise" style={{paddingLeft: "3em",background: "#eeeeee"}}>
+        <section className="colorlib-expertise"  style={{paddingLeft: "3em",background: "#eeeeee", minHeight: "800px", paddingTop: "8em"}}>
         <div className="colorlib-narrow-content">
             <div className="row">
-                <div className="row row-pt-md">    
+                <div className="row row-pt-md" data-section="expertise">    
                             <h2 className="colorlib-heading" style={{marginBottom:"4em", textAlign:"center"}}>My Expertise</h2>                       
                               <div className="col-md-6 text-center animate-box">       
        

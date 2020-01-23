@@ -11,7 +11,7 @@ export default class Project extends Component {
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
-                    <div style={{backgroundImage: "url(/images/vg.jpg)", width: "100%", height: "100%", position: "absolute", opacity: "0.4"}} ></div>
+                    <div className="backgroundImage"></div>
                     <div className="col-md-7 col-md-offset-5 col-md-pull-3 col-sm-7 col-sm-offset-4 col-xs-7 col-xs-offset-2 js-fullheight slider-text" >
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
@@ -32,6 +32,9 @@ export default class Project extends Component {
                 </div>
               </li>            
             </ul>
+            <div id="navbar">
+              <a href="#about" data-nav-section="about"><div className="scrollDownArrow"></div></a>
+            </div>
           </div>
         </section>
       </div>
